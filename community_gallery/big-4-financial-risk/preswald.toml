@@ -11,8 +11,9 @@ logo = "images/logo.png"
 favicon = "images/favicon.ico"
 primaryColor = "#F89613"
 
+[data.big4_financial_risk_compliance]
 type = "csv"
-path = "data/big-4-financial-risk.csv"
+path = "data/big4_financial_risk_compliance.csv"
 
 [logging]
 level = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL

@@ -1,11 +1,17 @@
-# Preswald Project - Airquality
-dataset: https://catalog.data.gov/dataset/air-quality
+# Preswald Project - Big 4 Financial Risk Compliance
+dataset: https://www.kaggle.com/datasets/atharvasoundankar/big-4-financial-risk-insights-2020-2025/data
 
 # Features
-The Preswald application provides an interactive dashboard for exploring air quality and emissions data.
-- Filtering: A slider component lets users select a threshold for “Data Value.” As they move the slider, the data table updates instantly.
-- Queries:   Preswald’s query() function can also filter rows by SQL-like conditions
-- Visualizations: The app uses Plotly to create scatter or bar charts. Hovering over data points reveals extra details, providing a deeper look at the dataset.
+The Preswald application provides an interactive dashboard for analyzing financial risk and compliance data from the Big 4 firms.
+
+Filtering: A slider component allows users to filter records based on numerical values dynamically.
+
+Queries: The query() function supports SQL-like filtering for advanced data selection.
+
+Visualizations: The app integrates Plotly for scatter and bar charts, allowing users to explore trends visually.
+
+Data Preview: Users can view a table with the dataset's first few rows for a quick glance.
+
 ## Setup
 1. Configure your data connections in `preswald.toml`
 2. Add sensitive information (passwords, API keys) to `secrets.toml`
